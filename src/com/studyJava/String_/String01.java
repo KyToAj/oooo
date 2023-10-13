@@ -17,7 +17,7 @@ public class String01 {
          */
 //        String a = "abc";
 //        String b = new String("abc");
-//        System.out.println(a.equals(b));
+//        System.xout.println(a.equals(b));
 //        System.out.println(a == b);
 //        System.out.println(a == b.intern());
 //        System.out.println(b == b.intern());
@@ -30,6 +30,9 @@ public class String01 {
         System.out.println(person1.name == "aj");//t
         String s1 = new String("aaa");
         String s2 = new String("aaa");
+        String a = "hello";
+        String b = "abc";
+        String c = a + b ;
         System.out.println(s1 == s2);
     }
 }

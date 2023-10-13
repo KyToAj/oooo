@@ -4,6 +4,7 @@ public class TestTemplate {
     public static void main(String[] args) {
         Emp emp = new Emp();
         emp.calculateTime();
+        System.out.println();
     }
 }
 
@@ -17,12 +18,22 @@ abstract class calculateTime{//
     }
 }
 class Emp extends calculateTime{
+//    @Override
+//    public void job() {
+//       String s = new String("");
+//        for (int i = 0; i < 80000; i++) {
+//            s +="hello";
+//        }
+    //}
+
     @Override
     public void job() {
-        int num = 0 ;
-        for (int i = 0; i < 458255522; i++) {
-            num +=i;
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < 80000; i++) {
+            sb.append("hello");
         }
+        System.out.println(sb);
     }
 }
+
 
