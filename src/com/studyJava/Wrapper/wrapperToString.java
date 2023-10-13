@@ -9,6 +9,7 @@ public class wrapperToString {
 //        int n1 = 10;
         //包装类转为字符串
         Integer n1 = 10;
+        System.out.println(n1);
         //1. toString
         String str1 = n1.toString();
         //2.
