@@ -12,10 +12,12 @@ public class String02 {
         ch[0] = 'h';
     }
     public static void main(String[] args) {
-        String02 string02 = new String02();
-        string02.change(string02.str, string02.ch);
-        System.out.println(string02.str);
-        System.out.println(string02.ch);
+//        String02 string02 = new String02();
+//        string02.change(string02.str, string02.ch);
+//        System.out.println(string02.str);
+//        System.out.println(string02.ch);
+        double d = 147.25451;
+        System.out.println(String.format("成绩为%.3f",d));
     }
 }
 
