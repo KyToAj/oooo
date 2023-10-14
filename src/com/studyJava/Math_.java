@@ -28,5 +28,7 @@ public class Math_ {
         //求算数平方根
         double n8 = Math.sqrt(n7);
         System.out.println(n8);
+        double n9 = (int)(6 * Math.random()+2);
+        System.out.println(n9);
     }
 }
