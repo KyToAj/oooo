@@ -9,18 +9,22 @@ import java.util.List;
  * @version 1.0
  */
 public class ArrayListEx {
+    @SuppressWarnings({"all"})
     public static void main(String[] args) {
         List list = new ArrayList();
-        list.add("Hello");
-        list.add("Hello");
-        list.add("Hello");
-        list.add("Hello");
-        list.add("Hello");
-        list.add("Hello");
-        list.add("Hello");
-        list.add("Hello");
-        list.add("Hello");
-        list.add("Hello");
+        for (int i = 0; i < 10; i++) {
+            list.add(i*2);
+        }
+//        list.add("Hello");
+//        list.add("Hello");
+//        list.add("Hello");
+//        list.add("Hello");
+//        list.add("Hello");
+//        list.add("Hello");
+//        list.add("Hello");
+//        list.add("Hello");
+//        list.add("Hello");
+//        list.add("Hello");
         list.add(2,"hsp");
         System.out.println(list.get(5));
         list.remove(6);
