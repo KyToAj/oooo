@@ -16,6 +16,7 @@ public class HashSetEx_ {
         linkedHashSet.add(new car("byd",120000));
         System.out.println(linkedHashSet);
     }
+
 }
 class car{
     private String name;
